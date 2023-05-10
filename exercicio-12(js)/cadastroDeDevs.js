@@ -20,6 +20,12 @@ function createInput(id, value, name, type = "text", placeholder = "") {
 	return input;
 }
 
+function createBreakLine() {
+	const br = document.createElement("br");
+	console.log("entrou na função", br);
+	return br;
+}
+
 addTechBtn.addEventListener("click", function (ev) {
 	const stackInputs = document.getElementById("stackInputs");
 
@@ -31,6 +37,10 @@ addTechBtn.addEventListener("click", function (ev) {
 
 	const techNameLabel = createLabel("Nome: ", "techName-" + rowIndex);
 	const techNameInput = createInput("techName-" + rowIndex, null, "techName");
+	const tagBr1 = createBreakLine();
+	const tagBr2 = createBreakLine();
+	const techEmpresa = createLabel('Nome da empresa: ', "techEmpresa-" + rowIndex);
+	const techTempDeEmpresa = createInput('techXpEmpresa-' + rowIndex, null, 'tehcEmpresa');
 
 	const expLabel = createLabel("Experiência: ");
 	const id1 = "expRadio-" + rowIndex + ".1";
@@ -70,6 +80,10 @@ addTechBtn.addEventListener("click", function (ev) {
 		expLabel2,
 		expRadio3,
 		expLabel3,
+		tagBr1,
+		techEmpresa,
+		techTempDeEmpresa,
+		tagBr2,
 		removeRowBtn
 	);
 
