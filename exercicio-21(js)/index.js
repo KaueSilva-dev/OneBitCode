@@ -12,5 +12,7 @@ arthur.setAttack(manoel);
 jose.setAttack(arthur);
 manoel.switchStance();
 arthur.heal(manoel);
+jose.setAttack(manoel);
+arthur.setAttack(manoel);
 
 console.table({arthur, jose, manoel});
