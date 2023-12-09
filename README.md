@@ -7,5 +7,6 @@
   <img align="center" alt="Kaue-Node" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"/>
  <img align="center" alt="Kaue-Babel" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/babel/babel-original.svg"/>
  <img align="center" alt="kaue-Bootstrap" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"/>
+ <img align="center" alt="kaue-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"/>
  
 </div>
